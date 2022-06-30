@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.demoproject.in.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 51.505 s <<< FAILURE! - in com.demoproject.in.AppTest
+openHomePage(com.demoproject.in.AppTest)  Time elapsed: 50.916 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //button[contains(text(),'ADD TO CART')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LUCARIO', ip: '192.168.90.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50721}, msedge: {msedgedriverVersion: 103.0.1264.37 (e3a6d3b5b3c3..., userDataDir: C:\Users\viraj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50721/devtoo..., se:cdpVersion: 103.0.1264.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fde428288ad4eccba359045c42426069
+	at com.demoproject.in.AppTest.openHomePage(AppTest.java:37)
+
